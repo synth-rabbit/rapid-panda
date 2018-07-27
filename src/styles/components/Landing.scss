@@ -1,0 +1,48 @@
+.landing {
+  background-image: url('/images/landing-bg.jpg');
+  height: 100vh;
+  position: relative;
+  background-position: center;
+  
+  @include media-query($md){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/images/landing-bg-mobile.jpg');
+    background-size: 100%;
+    background-position: top;
+    
+  }
+
+  &__content {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+
+    @include media-query($md){
+      position: initial;
+    }
+  }
+
+  &__title {
+    font-family: $titlefont;
+    color: $secondary;
+    font-size: 4rem;
+    @include media-query($md){
+      font-size: 3rem;
+    }
+  }
+
+  &__subtitle {
+    font-family: $textfont;
+    color: $primary;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    // @include media-query($md){
+    //   font-size: 1rem;
+    // }
+  }
+}

@@ -1,0 +1,23 @@
+.skill {
+  width: 21%;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__name {
+    font-family: $titlefont;
+    font-size: 1.2rem;
+    margin-top: .5rem;
+    font-weight: 900;
+  }
+
+  &__image {
+    @include media-query($md){
+      display: block;
+      width: 90%;
+      height: auto;
+    }
+  }
+}

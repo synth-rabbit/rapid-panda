@@ -1,0 +1,56 @@
+$desktopwidth: 300px;
+$mobilewidth: 200px;
+
+.work {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__card {
+    width: $desktopwidth;
+    margin-bottom: 2rem;
+    text-align: center;
+    display: flex;
+    box-shadow: none;
+    border: none;
+    @include media-query($md){
+      width: $mobilewidth;
+    }
+  } 
+
+  &__img-container {
+    width: $desktopwidth;
+    height: 250px;
+    overflow: hidden;
+    @include media-query($md){
+      width: $mobilewidth;
+      height: 200px;
+    }
+  }
+  
+  &__image {
+    height: $desktopwidth;
+    width: $desktopwidth;
+    display: inline-block;
+    @include media-query($md){
+      width: $mobilewidth;
+      height: $mobilewidth;
+    }
+  }
+
+  &__title {
+    margin-top: .5rem;
+    font-family: $titlefont;
+    font-size: 1.4rem;
+  }
+
+  &__description {
+    font-family: $textfont;
+    font-size: 1.1rem;
+    width: 90%;
+  }
+
+  &__button {
+    box-shadow: none;
+  }
+}

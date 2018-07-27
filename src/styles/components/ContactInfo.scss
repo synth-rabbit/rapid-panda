@@ -1,0 +1,21 @@
+.contact-info {
+  margin-right: 2rem;
+
+  &__title {
+    font-family: $titlefont;
+    font-size: 1.3rem;
+    font-weight: 900;
+  }
+
+  &__link {
+    color: $white;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-family: $textfont;
+
+    &:hover {
+      color: $white;
+      text-decoration: none;
+    }
+  }
+}
