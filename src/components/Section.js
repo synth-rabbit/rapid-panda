@@ -22,7 +22,7 @@ export class Section extends Component {
     return(
       <section className={`section ${ !fullscreen ? 'section--expand' : '' }`}>
         <div className='section__wrapper'>
-          <a className='section__anchor' id={id} />
+          <a className='section__anchor' id={id}>''</a>
           <header>
             <h1 className='section__title'>{title}</h1>
             { 

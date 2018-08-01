@@ -1,6 +1,4 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
-import PropTypes from 'prop-types'
 import axios from 'axios';
 
 import Navbar from './NavBar';
@@ -120,7 +118,7 @@ export default class App extends React.Component {
   }
 
   render() {
-    let { landing, navType, location, about, skills, works, testimonials, contact, loading } = this.state;
+    let { navType, location, about, skills, works, testimonials, contact, loading } = this.state;
  
     return loading ?
         <Loading />

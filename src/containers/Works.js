@@ -6,12 +6,12 @@ import Work from '../components/Work';
 
 export class Works extends Component {
   render(){
-    let { changeNav, works } = this.props;
+    let { changeNav } = this.props;
 
     return(
       <Section title='My Work' linkType='top' link='#testimonials' id='work' fullscreen={false}>
         <Waypoint onEnter={changeNav.bind(null, 'navbar--main', 'work')} fireOnRapidScroll={false}>
-          <a></a>
+          <a>''</a>
         </Waypoint>
         <section className='works'>
           {
