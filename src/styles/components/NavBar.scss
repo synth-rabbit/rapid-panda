@@ -1,4 +1,5 @@
 .navbar {
+  animation: moveInRight 1s ease-in-out;
   @include media-query($md){
     background: transparent;
   }

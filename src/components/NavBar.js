@@ -66,7 +66,7 @@ export class NavBar extends Component {
         </a>
         <section className={`navbar__links navbar__links${ isOpen ? '' : '--hide'}`}>
           <img
-            src='assets/panda.png'
+            src='images/panda.png'
             alt='Rapid Panda logo'
             className='navbar__logo'
             style={{

@@ -16,7 +16,7 @@ export class Contact extends Component {
             <Card className='contact__card'>
               <article className='contact'>
                 <aside className='contact__col-left'>
-                  <img className='contact__logo' src='assets/panda.png' alt='Rapid Panda Logo' />
+                  <img className='contact__logo' src='images/panda.png' alt='Rapid Panda Logo' />
                   {
                     !social_links ?
                     <div />
