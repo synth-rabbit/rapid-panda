@@ -17,11 +17,11 @@
     "smoothscroll": "^0.4.0"
   },
   "scripts": {
-    "homepage" : "./",
+    "homepage" : "http://pandadragoon.github.io/rapid-panda",
     "start-js": "react-scripts start",
     "start": "npm-run-all -p watch-css start-js",
     "build-js": "react-scripts build",
-    "build": "PUBLIC_URL=https://pandadragoon.github.io/rapidpanda npm-run-all build-css build-js",
+    "build": "PUBLIC_URL=https://pandadragoon.github.io/rapid-panda npm-run-all build-css build-js",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "build-css": "node-sass-chokidar src/styles/application.scss -o src/components/",
