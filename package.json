@@ -17,7 +17,7 @@
     "smoothscroll": "^0.4.0"
   },
   "scripts": {
-    "homepage": "https://pandadragoon.github.io/rapid-panda/",
+    "homepage": "https://pandadragoon.github.io/rapid-panda",
     "start-js": "react-scripts start",
     "start": "npm-run-all -p watch-css start-js",
     "build-js": "react-scripts build",
