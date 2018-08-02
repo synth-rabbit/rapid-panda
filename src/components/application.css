@@ -847,7 +847,8 @@ template {
       align-items: center;
       background-size: 100%;
       background-position: top;
-      clip-path: none; } }
+      height: 98vh;
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90vh); } }
   .landing__content {
     position: absolute;
     top: 50px;
