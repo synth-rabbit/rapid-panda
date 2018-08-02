@@ -846,7 +846,6 @@ template {
       display: flex;
       justify-content: center;
       align-items: center;
-      background-image: url("/images/landing-bg-mobile.jpg");
       background-size: 100%;
       background-position: top; } }
   .landing__content {

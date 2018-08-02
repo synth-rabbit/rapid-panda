@@ -18,9 +18,9 @@ export class Landing extends Component {
 
   render(){
     let { changeNav } = this.props;
-
+    var imageUrl = window.location.hostname === "localhost" ? '/images/landing-bg-mobile.jpg' : 'https://pandadragoon.github.io/rapid-panda/images/landing-bg-mobile.jpg';
     return(
-      <section className='landing'>
+      <section className='landing' styl={{backgroundImage: imageUrl}}>
         <Waypoint onEnter={changeNav.bind(null, 'navbar--landing', 'landing')}>
           <aside className='landing__content'>
             <h1 className='landing__title'>Rapid/Panda</h1>
