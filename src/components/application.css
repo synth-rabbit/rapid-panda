@@ -846,7 +846,8 @@ template {
       justify-content: center;
       align-items: center;
       background-size: 100%;
-      background-position: top; } }
+      background-position: top;
+      clip-path: none; } }
   .landing__content {
     position: absolute;
     top: 50px;
