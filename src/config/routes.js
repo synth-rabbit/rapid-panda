@@ -1,4 +1,4 @@
-const BASE = '/api/';
+const BASE = location.hostname === "localhost" ?  '/api/' : 'https://pandadragoon.github.io/rapid-panda/';
 
 export const ABOUT_URL = `${BASE}abouts.json`;
 export const SKILL_URL = `${BASE}skills.json`;
