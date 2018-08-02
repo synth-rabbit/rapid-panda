@@ -11,7 +11,7 @@ export class Works extends Component {
     return(
       <Section title='My Work' linkType='top' link='#testimonials' id='work' fullscreen={false}>
         <Waypoint onEnter={changeNav.bind(null, 'navbar--main', 'work')} fireOnRapidScroll={false}>
-          <a>&nbrs;</a>
+          <a>&nbsp;</a>
         </Waypoint>
         <section className='works'>
           {
