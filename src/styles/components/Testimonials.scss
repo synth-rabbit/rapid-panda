@@ -5,6 +5,9 @@
   justify-content: center;
   height: 100vh;
   align-items: flex-start;
+  @include media-query($md){
+    height: auto;
+  }
   @include media-query($sm){
     width: 95%;
   }

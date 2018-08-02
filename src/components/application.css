@@ -1033,6 +1033,9 @@ template {
   justify-content: center;
   height: 100vh;
   align-items: flex-start; }
+  @media screen and (max-width: 768px) {
+    .testimonials {
+      height: auto; } }
   @media screen and (max-width: 414px) {
     .testimonials {
       width: 95%; } }
