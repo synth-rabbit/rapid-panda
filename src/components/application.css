@@ -984,6 +984,9 @@ template {
   flex-flow: row wrap;
   width: 75%;
   margin: 2rem auto; }
+  @media screen and (max-width: 414px) {
+    .works {
+      width: 100%; } }
 
 .work {
   display: flex;
@@ -999,6 +1002,9 @@ template {
     @media screen and (max-width: 768px) {
       .work__card {
         width: 200px; } }
+    @media screen and (max-width: 414px) {
+      .work__card {
+        width: 100%; } }
   .work__img-container {
     width: 300px;
     height: 250px;
@@ -1007,14 +1013,18 @@ template {
       .work__img-container {
         width: 200px;
         height: 200px; } }
+    @media screen and (max-width: 414px) {
+      .work__img-container {
+        width: 100%;
+        height: auto; } }
   .work__image {
     height: 300px;
     width: 300px;
     display: inline-block; }
     @media screen and (max-width: 768px) {
       .work__image {
-        width: 200px;
-        height: 200px; } }
+        width: 100%;
+        height: auto; } }
   .work__title {
     margin-top: .5rem;
     font-family: "Muli", Arial, sans-serif;
