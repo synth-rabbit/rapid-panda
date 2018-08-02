@@ -835,7 +835,6 @@ template {
       text-decoration: none; }
 
 .landing {
-  background-image: url("/images/landing-bg.jpg");
   height: 95vh;
   position: relative;
   background-position: center;
@@ -858,7 +857,13 @@ template {
     animation: moveInLeft 1s ease-in-out; }
     @media screen and (max-width: 768px) {
       .landing__content {
-        position: initial; } }
+        position: initial;
+        background-color: rgba(255, 255, 255, 0.4);
+        width: 80vw;
+        max-width: none;
+        padding: 1rem 2rem;
+        align-items: center;
+        text-align: center; } }
   .landing__title {
     font-family: "Muli", Arial, sans-serif;
     color: #ED2FCF;

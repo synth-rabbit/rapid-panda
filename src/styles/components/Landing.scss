@@ -1,5 +1,4 @@
 .landing {
-  background-image: url('/images/landing-bg.jpg');
   height: 95vh;
   position: relative;
   background-position: center;
@@ -12,7 +11,6 @@
     align-items: center;
     background-size: 100%;
     background-position: top;
-    
   }
 
   &__content {
@@ -26,6 +24,12 @@
 
     @include media-query($md){
       position: initial;
+      background-color: rgba(255, 255, 255, 0.4);
+      width: 80vw;
+      max-width: none;
+      padding: 1rem 2rem;
+      align-items: center;
+      text-align: center;
     }
   }
 

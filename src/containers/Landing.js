@@ -7,7 +7,25 @@ import Button from '../components/Button';
 export class Landing extends Component {
   constructor(props){
     super(props);
+    this.state = {
+      isMobile: false
+    };
+
     this.handleClick = this.handleClick.bind(this);
+    this.handleMediaQuery = this.handleMediaQuery.bind(this);
+  }
+
+  componentDidMount(){
+    var x = window.matchMedia("(max-width: 768px)");
+    x.addListener(this.handleMediaQuery);
+  }
+
+  handleMediaQuery(e){
+    if(e.matches){
+      this.setState({isMobile: true});
+    } else {
+      this.setState({isMobile: false});
+    }
   }
 
   handleClick(link, e){
@@ -18,9 +36,10 @@ export class Landing extends Component {
 
   render(){
     let { changeNav } = this.props;
-    var imageUrl = window.location.hostname === "localhost" ? '/images/landing-bg-mobile.jpg' : 'https://pandadragoon.github.io/rapid-panda/images/landing-bg-mobile.jpg';
+    let imagePath = this.state.isMobile ? 'landing-bg-mobile' : 'landing-bg';
+    var imageUrl = window.location.hostname === "localhost" ? `/images/${imagePath}.jpg` : `https://pandadragoon.github.io/rapid-panda/images/${imagePath}.jpg`;
     return(
-      <section className='landing' style={{backgroundImage: imageUrl}}>
+      <section className='landing' style={{backgroundImage: `url(${imageUrl})`}}>
         <Waypoint onEnter={changeNav.bind(null, 'navbar--landing', 'landing')}>
           <aside className='landing__content'>
             <h1 className='landing__title'>Rapid/Panda</h1>
