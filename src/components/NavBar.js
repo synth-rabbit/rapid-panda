@@ -76,7 +76,7 @@ export class NavBar extends Component {
           <a onClick={this.toggleMobileNav}
             className='navbar__link navbar__close'
           >
-            <i className='fa fa-close' />
+            <i className='fa fa-times' />
           </a>
           {
             links.map((link, idx)=> {
@@ -102,7 +102,7 @@ export class NavBar extends Component {
                     className='navbar__social-link'
                     target='_blank'
                   >
-                    <i className={`fa ${link.icon}`} />
+                    <i className={`fab ${link.icon === 'fa-file-alt' ? 'far' : ''} ${link.icon}`} />
                   </a>
                 );
               })

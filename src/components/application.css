@@ -748,7 +748,7 @@ template {
       .navbar--landing .navbar__links {
         top: 0;
         right: 0;
-        width: 75%; } }
+        width: 100%; } }
     @media screen and (max-width: 414px) {
       .navbar--landing .navbar__links {
         width: 100%; } }
@@ -773,7 +773,7 @@ template {
       .navbar--main .navbar__links {
         top: 0;
         right: 0;
-        width: 70%;
+        width: 100%;
         left: auto;
         background-color: rgba(255, 255, 255, 0.75);
         justify-content: unset; } }
