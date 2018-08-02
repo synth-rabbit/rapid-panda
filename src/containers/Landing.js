@@ -37,6 +37,9 @@ export class Landing extends Component {
   render(){
     let { changeNav } = this.props;
     let imagePath = this.state.isMobile ? 'landing-bg-mobile' : 'landing-bg';
+    if(window.innerWidth <= 414){
+      imagePath = 'landing-bg-mobile';
+    }
     var imageUrl = window.location.hostname === "localhost" ? `/images/${imagePath}.jpg` : `https://pandadragoon.github.io/rapid-panda/images/${imagePath}.jpg`;
     return(
       <section className='landing' style={{backgroundImage: `url(${imageUrl})`}}>
