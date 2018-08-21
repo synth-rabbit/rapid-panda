@@ -1,0 +1,58 @@
+export default [
+    {
+      "id": 1,
+      "image_url": "css.png",
+      "name": "CSS",
+      "created_at": "2018-01-27T01:23:19.994Z",
+      "updated_at": "2018-01-27T01:23:19.994Z"
+    },
+    {
+      "id": 2,
+      "image_url": "html.png",
+      "name": "HTML",
+      "created_at": "2018-01-27T01:23:20.008Z",
+      "updated_at": "2018-01-27T01:23:20.008Z"
+    },
+    {
+      "id": 3,
+      "image_url": "javascript.png",
+      "name": "Javascript",
+      "created_at": "2018-01-27T01:23:20.020Z",
+      "updated_at": "2018-01-27T01:23:20.020Z"
+    },
+    {
+      "id": 4,
+      "image_url": "react.png",
+      "name": "React",
+      "created_at": "2018-01-27T01:23:20.028Z",
+      "updated_at": "2018-01-27T01:23:20.028Z"
+    },
+    {
+      "id": 5,
+      "image_url": "python.png",
+      "name": "Python",
+      "created_at": "2018-01-27T01:23:20.044Z",
+      "updated_at": "2018-01-27T01:23:20.044Z"
+    },
+    {
+      "id": 6,
+      "image_url": "ruby.png",
+      "name": "Ruby",
+      "created_at": "2018-01-27T01:23:20.054Z",
+      "updated_at": "2018-01-27T01:23:20.054Z"
+    },
+    {
+      "id": 7,
+      "image_url": "webpack.png",
+      "name": "Webpack",
+      "created_at": "2018-01-27T01:23:20.062Z",
+      "updated_at": "2018-01-27T01:23:20.062Z"
+    },
+    {
+      "id": 8,
+      "image_url": "node.png",
+      "name": "Node",
+      "created_at": "2018-01-27T01:23:20.069Z",
+      "updated_at": "2018-01-27T01:23:20.069Z"
+    }
+  ]
