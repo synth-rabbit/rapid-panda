@@ -1,5 +1,5 @@
 /* global location */
-const BASE = window.location.hostname === "localhost" ?  '/api/' : 'http://rapid-panda/api/';
+const BASE = window.location.hostname === "localhost" ?  '/api/' : '/api/';
 
 export const ABOUT_URL = `${BASE}abouts.json`;
 export const SKILL_URL = `${BASE}skills.json`;
