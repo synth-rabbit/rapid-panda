@@ -50,56 +50,56 @@ export default class App extends React.Component {
 
   componentDidMount() {
     // TODO: Create Api
-    // let {
-    //   getAbout,
-    //   getSkills,
-    //   getWorks,
-    //   getTestimonials,
-    //   getContact
-    // } = this;
+    let {
+      getAbout,
+      getSkills,
+      getWorks,
+      getTestimonials,
+      getContact
+    } = this;
 
-    // axios.all([
-    //   getAbout().catch(this.handleError), 
-    //   getSkills().catch(this.handleError), 
-    //   getWorks().catch(this.handleError), 
-    //   getTestimonials().catch(this.handleError), 
-    //   getContact().catch(this.handleError)
-    // ])
-    //   .then(
-    //     axios.spread((about, skills, works, testimonials, contact) => {
-    //       this.handleData({
-    //         about: about.data,
-    //         skills: skills.data,
-    //         works: works.data,
-    //         testimonials: testimonials.data,
-    //         contact: contact.data
-    //       });
-    //     })
-    //   )
-    //   .catch(this.handleError)
+    axios.all([
+      getAbout().catch(this.handleError), 
+      getSkills().catch(this.handleError), 
+      getWorks().catch(this.handleError), 
+      getTestimonials().catch(this.handleError), 
+      getContact().catch(this.handleError)
+    ])
+      .then(
+        axios.spread((about, skills, works, testimonials, contact) => {
+          this.handleData({
+            about: about.data,
+            skills: skills.data,
+            works: works.data,
+            testimonials: testimonials.data,
+            contact: contact.data
+          });
+        })
+      )
+      .catch(this.handleError)
 
-    this.handleData({
-      loading: false,
-      about: about[0],
-      contact: contact[0],
-      skills: skills,
-      works: works,
-      testimonials: testimonials
-    });
+    // this.handleData({
+    //   loading: false,
+    //   about: about[0],
+    //   contact: contact[0],
+    //   skills: skills,
+    //   works: works,
+    //   testimonials: testimonials
+    // });
   }
 
   handleData(data) {
     // TODO: Hook up api
-    // this.setState({
-    //   loading: false,
-    //   about: data.about[0],
-    //   contact: data.contact[0],
-    //   skills: data.skills,
-    //   works: data.works,
-    //   testimonials: data.testimonials
-    // });
+    this.setState({
+      loading: false,
+      about: data.about[0],
+      contact: data.contact[0],
+      skills: data.skills,
+      works: data.works,
+      testimonials: data.testimonials
+    });
 
-    this.setState(data);
+    // this.setState(data);
   }
 
   handleError(error) {
