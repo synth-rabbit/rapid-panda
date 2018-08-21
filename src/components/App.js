@@ -11,11 +11,11 @@ import Works from '../containers/Works';
 import Testimonials from '../containers/Testimonials';
 import Contact from '../containers/Contact';
 
-import about from '../api/abouts';
-import contact from '../api/contacts';
-import skills from '../api/skills';
-import works from '../api/works';
-import testimonials from '../api/testimonials';
+// import about from '../api/abouts';
+// import contact from '../api/contacts';
+// import skills from '../api/skills';
+// import works from '../api/works';
+// import testimonials from '../api/testimonials';
 
 import {
   ABOUT_URL,
