@@ -597,8 +597,8 @@ template {
 
 .app {
   position: relative;
-  padding: 10px;
-  max-width: 1600px; }
+  max-width: 2500px;
+  margin: 0 auto; }
 
 .section {
   height: auto;
@@ -1041,7 +1041,7 @@ template {
   margin: 2rem auto;
   display: flex;
   justify-content: center;
-  height: 100vh;
+  max-height: 800px;
   align-items: flex-start; }
   @media screen and (max-width: 768px) {
     .testimonials {
