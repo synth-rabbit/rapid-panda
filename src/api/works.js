@@ -6,7 +6,7 @@ export default [
       "title": "Crystal Cruises",
       "description": "Full site redesign for Crystal Cruises at VML.",
       "link_title": "Website",
-      "link_url": "http://www.crystalcruises.com/",
+      "link_url": "https://www.crystalcruises.com/",
       "created_at": "2018-01-27T01:23:20.125Z",
       "updated_at": "2018-01-27T01:23:20.125Z"
     },
@@ -16,7 +16,7 @@ export default [
       "title": "Gatorade Fuel Lab",
       "description": "A microsite done for Gatorade at VML for a new campaign.",
       "link_title": "Website",
-      "link_url": "http://www.gatorade.com/fuellab/",
+      "link_url": "https://www.gatorade.com/fuellab/",
       "created_at": "2018-01-27T01:23:20.136Z",
       "updated_at": "2018-01-27T01:23:20.136Z"
     },
@@ -26,7 +26,7 @@ export default [
       "title": "Pepsico Digital Summit",
       "description": "A microsite done for PepsiCo at VML using React.",
       "link_title": "Website",
-      "link_url": "http://www.pepsicoafh2016.com/#/",
+      "link_url": "https://www.pepsicoafh2016.com/#/",
       "created_at": "2018-01-27T01:23:20.150Z",
       "updated_at": "2018-01-27T01:23:20.150Z"
     },
@@ -46,7 +46,7 @@ export default [
       "title": "Valerii Portfolio",
       "description": "A portfolio website for Valerii Dmitriyevitch.",
       "link_title": "Website",
-      "link_url": "http://pandadragoon.github.io/valerii_portfolio/",
+      "link_url": "https://pandadragoon.github.io/valerii_portfolio/",
       "created_at": "2018-01-27T01:23:20.180Z",
       "updated_at": "2018-01-27T01:23:20.180Z"
     },
@@ -116,7 +116,7 @@ export default [
       "title": "Dopl Business Cards (Backs)",
       "description": "Designs for dopl business cards utilized by members of the dopl team.",
       "link_title": "Larger",
-      "link_url": "http://pandadragoon.github.io/images/dopl_backs_full.jpg",
+      "link_url": "https://pandadragoon.github.io/images/dopl_backs_full.jpg",
       "created_at": "2018-01-27T01:23:20.299Z",
       "updated_at": "2018-01-27T01:29:49.549Z"
     }
