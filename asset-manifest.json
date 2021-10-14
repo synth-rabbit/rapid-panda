@@ -1,6 +1,20 @@
 {
-  "main.css": "static/css/main.5b692eba.css",
-  "main.css.map": "static/css/main.5b692eba.css.map",
-  "main.js": "static/js/main.a8577287.js",
-  "main.js.map": "static/js/main.a8577287.js.map"
+  "files": {
+    "main.css": "https://pandadragoon.github.io/rapid-panda/static/css/main.0c50ac11.chunk.css",
+    "main.js": "https://pandadragoon.github.io/rapid-panda/static/js/main.77670f8f.chunk.js",
+    "main.js.map": "https://pandadragoon.github.io/rapid-panda/static/js/main.77670f8f.chunk.js.map",
+    "runtime-main.js": "https://pandadragoon.github.io/rapid-panda/static/js/runtime-main.f57ad03d.js",
+    "runtime-main.js.map": "https://pandadragoon.github.io/rapid-panda/static/js/runtime-main.f57ad03d.js.map",
+    "static/js/2.a7e77f38.chunk.js": "https://pandadragoon.github.io/rapid-panda/static/js/2.a7e77f38.chunk.js",
+    "static/js/2.a7e77f38.chunk.js.map": "https://pandadragoon.github.io/rapid-panda/static/js/2.a7e77f38.chunk.js.map",
+    "index.html": "https://pandadragoon.github.io/rapid-panda/index.html",
+    "static/css/main.0c50ac11.chunk.css.map": "https://pandadragoon.github.io/rapid-panda/static/css/main.0c50ac11.chunk.css.map",
+    "static/js/2.a7e77f38.chunk.js.LICENSE.txt": "https://pandadragoon.github.io/rapid-panda/static/js/2.a7e77f38.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f57ad03d.js",
+    "static/js/2.a7e77f38.chunk.js",
+    "static/css/main.0c50ac11.chunk.css",
+    "static/js/main.77670f8f.chunk.js"
+  ]
 }
